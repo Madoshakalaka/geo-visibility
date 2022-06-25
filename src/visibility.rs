@@ -117,10 +117,6 @@ impl Visibility<[geo::Line<f64>]> for geo::Point<f64> {
                                 vertices.push(intersection);
                             }
                         }
-                    } else {
-                        eprintln!(
-                            "ray intersects a line segment iff the line segment is in the state"
-                        );
                     }
                 }
             } else {
